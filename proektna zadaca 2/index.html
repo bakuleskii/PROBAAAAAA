@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Joyful Adventures</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- fonts -->
+        <link rel = "stylesheet" href = "font/fonts.css">
+        <!-- normalize css -->
+        <link rel = "stylesheet" href = "css/normalize.css">
+        <!-- custom css -->
+        <link rel = "stylesheet" href = "css/utility.css">
+        <link rel = "stylesheet" href = "css/style.css">
+        <link rel = "stylesheet" href = "css/responsive.css">
+        <link rel="icon" type="image/x-icon" href="/images/ICON.png">
+    </head>
+    <body>
+        <!-- navbar  -->
+        <nav class = "navbar">
+            <div class = "container flex">
+                <a href = "index.html" class = "site-brand">
+                    Joyful<span>Adventures</span>
+                </a>
+
+                <button type = "button" id = "navbar-show-btn" class = "flex">
+                    <i class = "fas fa-bars"></i>
+                </button>
+                <div id = "navbar-collapse">
+                    <button type = "button" id = "navbar-close-btn" class = "flex">
+                        <i class = "fas fa-times"></i>
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "index.html" class = "nav-link">Почетна</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "gallery.html" class = "nav-link">Галерија</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "blog.html" class = "nav-link">Блог</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "about.html" class = "nav-link">За Нас</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "contact.html" class = "nav-link">Контакт</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navbar  -->
+
+        <!-- header -->
+        <header class = "flex">
+            <div class = "container">
+                <div class = "header-title">
+                    <h1>Остави ги твоите отпечатоци</h1>
+                    <p>Дозволете ни да ви ја овозможиме вистинската авантура, исполнета со волшебни моменти и неповторливи доживувања.</p>
+                </div>
+                <div class = "header-form">
+                    <h2>Изберете ја вашата локација за патување:</h2>
+                    <form class = "flex">
+                        <input type = "text" class = "form-control" placeholder="Име на дестинација">
+                        <input type="date" class = "form-control" placeholder="Date">
+                        <input type="number" class = "form-control" placeholder="Цена ($)">
+                        <input type="submit" class = "btn" value = "Пребарај">
+                    </form>
+                </div>
+            </div>
+        </header>
+        <!-- header -->
+
+        <!-- featured section -->
+        <section id = "featured" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">Дознај за некои места пред патувањето.</span>
+                    <h2 class = "lg-title">прикажани места</h2>
+                </div>
+
+                <div class = "featured-row">
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/LONDON.jpeg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                London, United Kingdom
+                            </span>
+                            <div>
+                                <p class = "text">Лондон, град на вечна елеганција и <br> современи иновации, пружи впечатлива <br>слика на разновидноста и пулсирањето на светскиот живот</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/MALDIVI.jpeg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Fuvahmulah, Maldives
+                            </span>
+                            <div>
+                                <p class = "text">Малдивите, рајски архипелаг од изледи кои одзиваат на фантазијата, нудат <br>несекојдневно искуство на убавина и <br>удобност</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/PRAGA.jpeg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Prague,  Czech Republic
+                            </span>
+                            <div>
+                                <p class = "text">Прaга, град на старински шарм и вечна величина, се вплеткува во длабоките <br>кривини на историјата</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/MONACO.jpeg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Monaco, Monaco
+                            </span>
+                            <div>
+                                <p class = "text">Монако, мала земја со голем сјај и луксуз, привлечен со своите блескави казина, прекрасни јахти и елегантен стил, создавајќи впечаток на вистинска романтика</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/RIM.jpeg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Rome, Italy
+                            </span>
+                            <div>
+                                <p class = "text">Рим, вечен град на величественост и <br>историска значајност, овозможува несекојдневно патување низ времето.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = "images/BAHAMAS.jpeg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                The Bahamas
+                            </span>
+                            <div>
+                                <p class = "text">Бахамите, островски рај од тиркизни плажи, кристално чисти води и опуштена атмосфера, пружаат идеално утописко бегство од секојдневието.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of featured section -->
+
+        <!-- services section -->
+        
+        <!-- end of services section -->
+
+        <!-- testimonials section -->
+        <section id = "testimonials" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    
+                    <h2 class = "lg-title">Oна што нашите клиенти го кажуваат за нас.</h2>
+                </div>
+
+                <div class = "test-row">
+                    <div class = "test-item">
+                        <p class = "text">Одлично организирано патување! Вашата посветеност кон деталите и старежливоста кон потребите на клиентите прави вистински разлика. Препорачувам со задоволство!</p>
+                        <div class = "test-item-info">
+                            <img src = "images/COEK1.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Johny</h3>
+                                <p class = "text">Патување во Лисабон</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text">Освен одличниот избор на дестинации, вашата тимска работа и професионалност го направи патувањето безгрижно и забавно. Ви благодарам!</p>
+                        <div class = "test-item-info">
+                            <img src = "images/COEK3.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Madelyn</h3>
+                                <p class = "text">Патување на Малдиви</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text"> Со внимателно планирање, изобилство на доживувања и неверојатна поддршка, нашите патници ги завршуваат своите патувања со неповторливи спомени и најдобри искуства.</p>
+                        <div class = "test-item-info">
+                            <img src = "images/COEK2 .jpg" alt = "testimonial">
+                            <div>
+                                <h3>Gabriella</h3>
+                                <p class = "text">Патување во Парис</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of testimonials section -->
+
+        
+        <!-- footer -->
+        <footer class = "py-4">
+            <div class = "container footer-row">
+                <div class = "footer-item">
+                    <a href = "index.html" class = "site-brand">
+                        Joyful<span>Adventures</span>
+                    </a>
+                    <p class = "text">Со внимателно планирање, изобилство на доживувања и неверојатна поддршка, нашите патници завршуваат своите патувања со неповторливи спомени и најдобри искуства</p>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Следетене на: </h2>
+                    <ul class = "social-links">
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-google-plus"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Најпознати Места</h2>
+                    <ul>
+                        <li><a href = "#">Тајланд</a></li>
+                        <li><a href = "#">Австралија</a></li>
+                        <li><a href = "#">Малдиви</a></li>
+                        <li><a href = "#">Швајцарија</a></li>
+                        <li><a href = "#">Шпанија</a></li>
+                    </ul>
+                </div>
+
+                <div class = "subscribe-form footer-item">
+                    <h2>Претплати се за НОВОСТИ!</h2>
+                    <form class = "flex">
+                        <input type = "email" placeholder="Enter Email" class = "form-control">
+                        <input type = "submit" class = "btn" value = "Subscribe">
+                    </form>
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer -->
+
+        <!-- js -->
+        <script src = "js/script.js"></script>
+        <script>
+            // play/pause video
+            
+        </script>
+    </body>
+</html>
